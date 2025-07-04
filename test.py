@@ -16,6 +16,6 @@ class Example3(   object ):
      else:
                     some_string = """
                        Indentation in multiline strings should not be touched.
-Only actual code should be reindented.
+Only actual code should be reindented
 """
                     return (sys.path, some_string)
